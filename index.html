@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dice Roll</title>
+    </head>
+    <body>
+        
+        <h1 id="dice">Dice Roll:</h1>
+        <button onclick="dice_roll()">Roll</button> 
+
+        
+        <script src="index.js"></script>
+        <script>
+            function dice_roll() {
+                let roll = document.getElementById('dice');
+                roll.innerHTML = 'Dice Roll: ' + diceroll();
+            }
+        </script>
+
+    </body>
+</html>
